@@ -1,0 +1,48 @@
+/* css de page Home */
+
+.container {
+  width: 75%;
+  min-width: 100vh;
+  color: aliceblue;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.container img {
+  height: 500px;
+  margin: 100px;
+}
+
+.container p {
+  font-size: 3rem; /* 48px */
+  font-weight: bold;
+  margin-bottom: 3rem;
+}
+
+.container span {
+  color: var(--primary)
+}
+
+.btn {
+  width: 250px;
+  height: 50px;
+  font-size: 1.125rem;
+  font-weight: bold;
+  border: 0;
+  border-radius: 8px;
+}
+
+.btn-blue {
+  background-color: var(--primary);
+  color: var(--white);
+}
+
+.btn-blue:hover {
+  background-color:#56a4fa;
+}
+
+body {
+  background-image: url(../img/backgif.gif);
+}
